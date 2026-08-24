@@ -1,0 +1,24 @@
+# Ignore comparison PDFs
+*hdf5*
+# not properly annotated figures:
+acomp*.pdf
+tireout*dat
+betaeff*
+mdot.pdf
+mdot_req*
+uvcheck*
+ux*
+vleap*
+q2d_Teff_along*
+late/*
+early/*
+*early*
+*late*
+**/pars*
+# text household files:
+memo_git
+summary.txt
+*~
+log
+# a huge file:
+ftable.dat
