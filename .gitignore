@@ -20,5 +20,6 @@ memo_git
 summary.txt
 *~
 log
-# a huge file:
+# huge files:
 ftable.dat
+sfront.dat
