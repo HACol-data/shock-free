@@ -5,27 +5,13 @@ Data and configuration for the `SUBSO3_Nx4` shock-free accretion-column simulati
 
 The corresponding post-processing and plotting code is available in:
 
-<https://github.com/gvlipunova/plotHacol>
+<https://github.com/pabolmasov/HACol>
 
-This repository contains model data only. It is intended to be placed as a nested data repository inside the code directory, for example:
-
-```text
-plotHacol/
-├── plotmodel.py
-├── tire_MPI.py
-├── g_postpro.py
-├── ...
-└── SUBSO3_Nx4/
-    ├── globals.conf
-    ├── geo.dat
-    ├── flux.dat
-    ├── tireout.hdf5
-    └── ...
 ```
 
 ## Model
 
-This model corresponds to a shock-free solution used in the paper.
+This model corresponds to a shock-free solution used in the paper by Lipunova & Abolmasov (2026)
 
 Main parameters:
 
@@ -104,17 +90,3 @@ Post-processing may be performed with:
 python plotmodel.py SUBSO3_Nx4
 ```
 
-The exact commands and available plotting options are described in the main code repository:
-
-<https://github.com/gvlipunova/plotHacol>
-```
-
-Then add it to the data repository:
-
-```bash
-git add README.md
-git commit -m "Add README for SUBSO3_Nx4 model data"
-git push origin main
-```
-
-OpenAI GPT-5.6 Terra (External...  •  175039 + 793 tokens
